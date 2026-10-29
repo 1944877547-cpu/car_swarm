@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<library path="mycar_hardware">
+  <class
+    name="mycar_base/MyCarSystem"
+    type="mycar_base::MyCarSystem"
+    base_class_type="hardware_interface::SystemInterface">
+    <description>HEX PWM differential-drive hardware without encoders.</description>
+  </class>
+</library>
